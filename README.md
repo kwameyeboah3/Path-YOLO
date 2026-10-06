@@ -281,7 +281,7 @@ Path-YOLO detections should be interpreted as research outputs. External validat
 
 ## Citation
 
-Please cite the Path-YOLO manuscript when it becomes publicly available. The final journal citation/DOI should be added here after publication.
+The final journal citation/DOI will be added here after publication.
 
 For the public WSI dataset linked above, follow the citation instructions on the Zenodo record and associated Tang et al. publication.
 
