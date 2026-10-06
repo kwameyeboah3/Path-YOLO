@@ -2,7 +2,7 @@
 """
 Path-YOLO public inference pipeline (portable release)
 
-Portable release derived from the final Paper 1 inference workflow; supports .tif / .tiff / .svs
+Portable release derived from Path-YOLO inference workflow; supports .tif / .tiff / .svs
 
 Keeps:
   - Overlapping tiling (stride < tile)
@@ -98,7 +98,7 @@ SAVE_FULLRES_MERGED_RAW_TIF = False          # save full merged raw WSI mosaic f
 MERGED_RAW_TIF_COMPRESSION = "lzw"
 
 
-# Use your good retrained 1024 model (edit if needed)
+# Use the retrained 1024 model (edit if needed)
 YOLO_MODEL_PATH = str(REPO_ROOT / "models" / "best.pt")
 
 # --- Single WSI test mode ---
